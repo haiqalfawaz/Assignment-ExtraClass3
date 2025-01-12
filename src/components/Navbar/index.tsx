@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center p-4 w-full border-2 border-white rounded-lg mb-8">
       <div>
-        <h1 className="text-white text-4xl font-bold">Get Menu</h1>
+        <h1 className="text-white text-4xl font-bold">Eats & Treats</h1>
       </div>
       <div className="flex justify-center items-center gap-5 text-white text-2xl">
         <Link href="/">
