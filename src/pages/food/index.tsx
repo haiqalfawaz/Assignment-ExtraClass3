@@ -12,9 +12,9 @@ const FoodList = () => {
         className="min-h-screen relative bg-cover"
         style={{ backgroundImage: 'url("/FoodListImage.jpg")' }}
       >
-        <Navbar />
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 p-10 flex flex-col justify-center items-center">
+          <Navbar />
           <div className="flex justify-center items-start">
             <h1 className="text-white text-4xl tracking-wider ">
               Allow us to present the collection of tastes we have thoughtfully
